@@ -111,7 +111,7 @@ header {
   padding: 2rem 4rem;
   background-color: transparent;
   border: 1px solid white;
-  color: black;
+  color: white;
   font-size: 2rem;
 
   outline: none;
@@ -131,7 +131,6 @@ header {
 .companies {
   background-color: #202224;
   position: relative;
-  height: 100vh;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -173,4 +172,80 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* QUOTES CONTAINER */
+.main-2 {
+  background-color: #2d2d2d;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.quote-container {
+  padding: 0 50rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.2rem;
+}
+
+blockquote {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.quote-container > p {
+  font-size: 1.3rem;
+  align-self: flex-end;
+}
+
+/* CODING SECTION */
+
+.coding-section {
+  background-color: #202224;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.coding-container {
+  padding: 0px 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.code-heading {
+  font-size: 3.4rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+/* CODEPIN */
+
+.code-pin {
+  background-color: #253443;
+  margin: 0px 30rem;
+
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+}
+
+.code-pin p,
+.output-section p {
+  font-family: "Menlo", sans-serif;
+}
+
+.output-section {
+  background-color: #2a2d2f;
+  margin: 0px 30rem;
+
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 5px;
 }
