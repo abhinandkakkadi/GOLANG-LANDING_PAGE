@@ -85,6 +85,8 @@ header {
 .goopher-container {
   position: absolute;
   width: 18rem;
+  top: 15rem;
+  right: 20rem;
 }
 
 /* HEADER SECTION HERO-2 */
@@ -127,5 +129,48 @@ header {
 
 /* COMPANIES */
 .companies {
-  background-color: #007f9f;
+  background-color: #202224;
+  position: relative;
+  height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.companies-container {
+  padding: 0 30rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.companies-head {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.comapny-para {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.company-link {
+  color: #50b7e0;
+}
+
+.company-list-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.company-holder {
+  width: 180px;
+  height: 100px;
+  background-color: #dee2e6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
