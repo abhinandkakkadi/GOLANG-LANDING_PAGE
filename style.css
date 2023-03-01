@@ -8,9 +8,6 @@
 }
 
 html {
-  /* font-size: 10px; */
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
 }
 
@@ -20,6 +17,11 @@ body {
   font-weight: 400;
   color: #555;
   background-color: #202224;
+}
+
+button:hover,
+a:hover {
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -182,7 +184,7 @@ header {
 }
 
 .quote-container {
-  padding: 0 50rem;
+  padding: 0 30rem;
   display: flex;
   flex-direction: column;
 
@@ -209,7 +211,7 @@ blockquote {
 }
 
 .coding-container {
-  padding: 0px 30rem;
+  padding: 0px 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -283,6 +285,11 @@ blockquote {
 
 .possibility-container {
   padding: 0px 30rem;
+}
+
+.sub-container-1 {
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .possibility-main-heading,
@@ -466,9 +473,10 @@ blockquote {
 }
 
 .footer-container {
-  display: flex;
+  display: grid;
   padding: 5rem 30rem;
-  justify-content: space-between;
+  gap: 3fr;
+  grid-template-columns: repeat(5, 1fr);
   background-color: #253443;
   border-top: 0.5px solid #adb5bd;
   border-bottom: 0.5px solid #adb5bd;

@@ -1,0 +1,182 @@
+@media (max-width: 86em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .goopher-container {
+    width: 7rem;
+    top: 15rem;
+    right: 50rem;
+  }
+
+  .hero-container {
+    padding: 0px 20rem;
+  }
+
+  .quote-container {
+    padding: 0 20rem;
+  }
+}
+
+@media (max-width: 93em) {
+  .code-pin,
+  .output-section {
+    margin: 0px 20rem;
+  }
+
+  .possibility-container {
+    padding: 0px 20rem;
+  }
+
+  .s-last-container {
+    padding: 5rem 20rem;
+  }
+
+  .footer-container {
+    padding: 5rem 20rem;
+  }
+
+  .hero-container {
+    padding: 0px 20rem;
+  }
+  .company-holder {
+    width: 150px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 71em) {
+  .code-pin,
+  .output-section {
+    margin: 0px 10rem;
+  }
+
+  .company-list-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .companies-container {
+    padding: 0 10rem;
+  }
+
+  .possibility-container {
+    padding: 0px 10rem;
+  }
+
+  .s-last-container {
+    padding: 5rem 10rem;
+  }
+
+  .footer-container {
+    padding: 5rem 10rem;
+  }
+
+  .hero-container {
+    padding: 0px 10rem;
+  }
+  .goopher-container {
+    display: none;
+    width: 6rem;
+    top: 15rem;
+    right: 5rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .possibility-sub-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .s-last-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 48em) {
+  .footer-container {
+    padding: 5rem 10rem;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+
+  .company-list-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quote-container {
+    padding: 0 10rem;
+  }
+
+  .coding-section-button {
+    margin: 2rem 10rem;
+  }
+}
+
+@media (max-width: 41em) {
+  html {
+    font-size: 37.5%;
+  }
+  .possibility-sub-container {
+    grid-template-columns: 1fr;
+  }
+
+  .s-last-container {
+  }
+
+  .footer-container {
+  }
+
+  .hero-container {
+    padding: 0px 2rem;
+  }
+
+  .companies-container {
+    padding: 0 2rem;
+  }
+
+  .quote-container {
+    padding: 0 2rem;
+  }
+
+  .code-pin {
+    margin: 0px 2rem;
+  }
+
+  .output-section {
+    margin: 0px 2rem;
+  }
+
+  .coding-section-button {
+    margin: 2rem 2rem;
+  }
+
+  .possibility-container {
+    padding: 0px 2rem;
+  }
+
+  .possibility-sub-container {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .s-last-container {
+    padding: 5rem 2rem;
+  }
+
+  .footer-container {
+    padding: 5rem 2rem;
+  }
+
+  .company-holder {
+    width: 150px;
+    height: 70px;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+}
