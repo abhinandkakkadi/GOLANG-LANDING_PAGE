@@ -322,7 +322,6 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  height: 20rem;
 }
 
 .possibility-heading {
@@ -391,6 +390,7 @@ blockquote {
   padding: 5rem 30rem;
   display: flex;
   justify-content: space-between;
+  gap: 5rem;
 }
 
 .s-last-container-1 {
@@ -441,4 +441,50 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.c-left-heading,
+.c-right-heading {
+  color: #adb5bd;
+}
+
+.section-container p:first-child {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+}
+
+.section-container p:last-child {
+  color: #adb5bd;
+  font-size: 1.2rem;
+}
+
+.footer-container {
+  display: flex;
+  padding: 5rem 30rem;
+  justify-content: space-between;
+  background-color: #253443;
+  border-top: 0.5px solid #adb5bd;
+  border-bottom: 0.5px solid #adb5bd;
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.f-column > p {
+  font-size: 1.4rem;
+}
+
+#f-heading {
+  font-size: 2rem;
+  padding-bottom: 1.6rem;
 }
