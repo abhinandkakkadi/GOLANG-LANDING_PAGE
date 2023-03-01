@@ -304,3 +304,141 @@ blockquote {
   flex-direction: column;
   gap: 1rem;
 }
+
+.possibility-sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.possibility-logo {
+  width: 40px;
+}
+
+.sub-container-1-a {
+  background-color: #2d2d2d;
+  padding: 3rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 20rem;
+}
+
+.possibility-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.posibility-body {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.sub-container-1-b {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  border: 1px solid #2d2d2d;
+}
+
+.sub-container-1-b > p {
+  font-size: 1.4rem;
+}
+
+.possibility-link-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.possibility-link-container > a {
+  color: #4ba6cb;
+  background-color: #2d2d2d;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.possibility-learn-more {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #4ba6cb;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #2d2d2d;
+}
+.last-container a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  background-color: #4ba6cb;
+  padding: 0.7rem;
+  border-radius: 3px;
+}
+
+/* SECOND LAST CONTAINER */
+
+.s-last-container {
+  padding: 5rem 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-last-container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.s-last-conatiner-head {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.s-last-container-1 p:nth-child(2) {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.s-last-button {
+  display: flex;
+  gap: 2rem;
+}
+
+.s-last-button-1 {
+  background-color: transparent;
+  padding: 0.6rem 2rem;
+  border-radius: 3px;
+  border: none;
+  outline: 0;
+  background-color: #4aa6cb;
+}
+
+.s-last-button-2 {
+  padding: 0.6rem;
+  border-radius: 2px;
+  border: none;
+  outline: 0;
+  background: transparent;
+  color: #4aa6cb;
+}
+
+.s-right-container {
+  display: flex;
+  gap: 6rem;
+}
+
+.container-left,
+.container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
